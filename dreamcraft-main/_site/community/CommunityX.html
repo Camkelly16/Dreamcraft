@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CommunityX</title>
+    <link href="communityx_styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img src="../logo.png" class="logo-img">
+        <p id="logotext">DREAMCRAFT</p>
+      </div>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+      <div class="rightnavbar">
+        <p><a href = "../home/home.html">Home</a></p>
+        <p><a href="../about/about.html">About</a></p>
+        <p><a href="../shop/shop.html">Shop</a></p>
+        <p><a href="../join/join.html">Join</a></p>
+        <p><a href="../community/community.html">Community</a></p>
+      </div>
+    </div>
+    <nav class="mobile-nav">
+      <p><a href="home.html">Home</a></p>
+      <p><a href="../about/about.html">About</a></p>
+      <p><a href="../shop/shop.html">Shop</a></p>
+      <p><a href="../join/join.html">Join</a></p>
+      <p><a href="../community/community.html">Community</a></p>
+    </nav>
+    <div class="container">
+      <div class="heading-text">
+        <h1>DreamCraft Community</h1>
+        <p>This captivating page is exclusively designed for Dreamlink users, offering an enchanting platform to share their most cherished dream experiences, while also granting them the extraordinary ability to download and immerse themselves in the captivating dreams of others. Discover a realm where dreamers unite, forging connections through the ethereal tapestry of shared visions and empowering everyone to unlock the limitless possibilities of the Dreamlink community.</p>
+      </div>
+    </div>
+
+    <div class="text-box">
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" cols="50" placeholder="Enter your description here..."></textarea>
+
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file">
+
+      <button class="submit-button">Share</button>
+    </div>
+
+    <div class="second-text-box">
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" cols="50" placeholder="Enter your description here..."></textarea>
+
+      <!-- Swap the order of the <select> and <button> elements -->
+      <label for="file">File:</label>
+      <select id="file" name="file">
+        <option value="file1">File 1</option>
+        <option value="file2">File 2</option>
+        <option value="file3">File 3</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <button class="submit-button">Download</button>
+    </div>
+
+    <div id="footer">
+      <div id="footerText">
+        <p>Privacy Policy</p>
+        <p>Terms and Conditions</p>
+        <p>Support</p>
+      </div>
+      <div id="jointoday">
+        <p>Join DreamCraft Today!</p>
+      </div>
+    </div>
+    <script src="communtiyx.js"></script>
+  </body>
+</html>

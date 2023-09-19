@@ -1,0 +1,1 @@
+rsync -avz -e ssh _site/ --delete --omit-dir-times --no-perms user@dreamcraft-snapshot.guides.sashq-d.openstack.sas.com:/var/www/html/

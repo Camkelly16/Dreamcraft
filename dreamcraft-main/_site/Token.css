@@ -1,0 +1,31 @@
+/* Define color tokens */
+:root {
+    --primary-background-color: #5C6799;
+    --secondary-background-color: #FFFFFF;
+  }
+  
+  /* Define font size tokens */
+  :root {
+    /* Desktop */
+    --small-font-size: 12px; /* Footer */
+    --medium-font-size: 20px; /* Text & Navbar & Logo */
+    --large-font-size: 45px; /* Headings */
+  
+    /* tablet */
+    --tsmall-font-size: 12px; /* Footer */
+    --tmedium-font-size: 30px; /* Text & Navbar */
+    --tlarge-font-size: 45px; /* Headings */
+  
+    /* mobile */
+    --msmall-font-size: 12px; /* Footer */
+    --mmedium-font-size: 20px; /* Text & Navbar */
+    --mlarge-font-size: 30px; /* Headings */
+  }
+  
+  /* Define font tokens */
+  :root {
+    --main-font: 'Open Sans', sans-serif;  /* Replace with your desired main font */
+    --heading-font: 'Montserrat', sans-serif;  /* Replace with your desired heading font */
+  }
+  
+  
