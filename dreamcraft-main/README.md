@@ -1,4 +1,1 @@
-Intern summer project at SAS 
-Used AI to create a fictional website with a fictional product
-AI was also used when going through the design process
-Please enjoy and open the "Intern-Project" file in Figma
+During my summer internship at SAS, I undertook a project that showcased the immense potential of Artificial Intelligence in web development. Leveraging cutting-edge AI technology, I embarked on the journey of crafting a captivating fictional website featuring an innovative imaginary product. The prowess of AI was not limited to just the final product, but it also played an integral role throughout the entire design process, enhancing the user experience and ensuring a seamless interface. I am excited to share the culmination of this endeavor with you. To delve deeper into the intricacies of the project, kindly open the "Intern-Project" file in Figma. Your exploration promises an insightful glimpse into the fusion of creativity and AI-driven innovation.
